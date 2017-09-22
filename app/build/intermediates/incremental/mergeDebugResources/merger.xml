@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res"/><source path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\build\generated\res\rs\debug"/><source path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res"><file name="ic_launcher" path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="back" path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res\drawable-xhdpi\back.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btnbg" path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res\drawable-xhdpi\btnbg.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="tou" path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res\drawable-xhdpi\tou.png" qualifiers="xhdpi-v4" type="drawable"/><file name="user_qq" path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res\drawable-xhdpi\user_qq.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="activity_changepassword" path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res\layout\activity_changepassword.xml" qualifiers="" type="layout"/><file name="activity_findpassword" path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res\layout\activity_findpassword.xml" qualifiers="" type="layout"/><file name="activity_login" path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res\layout\activity_login.xml" qualifiers="" type="layout"/><file name="activity_register" path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res\layout\activity_register.xml" qualifiers="" type="layout"/><file name="main" path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res\menu\main.xml" qualifiers="" type="menu"/><file path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">Login</string><string name="action_settings">Settings</string><string name="id">请输入手机号</string><string name="login">登录</string><string name="password">请输入密码</string><string name="misspassword">无法登录？</string><string name="newuser">新用户</string><string name="back">返回</string><string name="register">注册</string><string name="auth_code">验证码</string><string name="check">换一张</string><string name="isture">确认</string><string name="findpassword">找回密码</string><string name="truepassword">确认您的密码</string><string name="id_true">格式错误</string><string name="pstrue">密码不一致</string><string name="autetrue">验证码错误</string><string name="changepw">修改密码</string><string name="true_change">确认修改</string><string name="newpassword">请输入6~20位的新密码</string><string name="oldpasswors">请输入旧密码</string><string name="idh">用户不存在</string><string name="wrongpw">密码输入错误</string></file><file path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppBaseTheme" parent="android:Theme.Light">
+        
+    </style><style name="AppTheme" parent="AppBaseTheme">
+        
+    </style><style name="title_relayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+    </style><style name="back_btn">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@drawable/back</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style><style name="back_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:text">@string/back</item>\
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">#00AFEF</item>
+        <item name="android:textSize">18sp</item>
+    </style><style name="title_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">18sp</item>
+    </style></file><file path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res\values-sw720dp-land\dimens.xml" qualifiers="sw720dp-land-v13"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        
+    </style></file><file path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        
+    </style></file></source><source path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\build\generated\res\rs\debug"/><source path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\debug\res"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="D:\workspace\feige\quanshi\samples\andorid\AndroidTest\app\src\debug\res"/></dataSet><mergedItems/></merger>
