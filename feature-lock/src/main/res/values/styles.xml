@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MenuTheme">
+        <item name="ActionSheetList">@style/ActionSheetList</item>
+        <item name="ActionSheetItem">@style/ActionSheetItem</item>
+        <item name="ActionSheetCancel">@style/ActionSheetCancel</item>
+    </style>
+    <style name="title_relayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+    </style>
+
+    <style name="back_btn">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@drawable/back</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="back_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:text">@string/back</item>\
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">#00AFEF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="title_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Theme.MenuTheme" parent="android:Theme">
+        <item name="ActionSheetList">@style/ActionSheetList</item>
+        <item name="ActionSheetItem">@style/ActionSheetItem</item>
+        <item name="ActionSheetCancel">@style/ActionSheetCancel</item>
+    </style>
+
+    <style name="ActionSheetDialog" parent="android:Theme.Dialog">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="ActionSheetList">
+        <item name="android:divider">#c9dddddd</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+    <style name="ActionSheetItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/menu_text</item>
+    </style>
+    <style name="ActionSheetCancel" parent="ActionSheetItem">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:background">@drawable/menu_item_single</item>
+    </style>
+</resources>

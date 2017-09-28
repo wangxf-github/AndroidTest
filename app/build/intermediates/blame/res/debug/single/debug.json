@@ -1,54 +1,130 @@
 [
     {
-        "merged": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_qq.png.flat",
-        "source": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\src\\main\\res\\drawable-xhdpi\\user_qq.png"
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\anim_translate_up.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\anim\\translate_up.xml"
     },
     {
-        "merged": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_gesturelock.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_gesturelock.xml"
     },
     {
-        "merged": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
-        "source": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_back.9.png.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\app\\src\\main\\res\\drawable-xhdpi\\back.9.png"
     },
     {
-        "merged": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_btnbg.png.flat",
-        "source": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\src\\main\\res\\drawable-xhdpi\\btnbg.png"
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_action_sheet.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_action_sheet.xml"
     },
     {
-        "merged": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_normal.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\drawable\\selector_normal.xml"
     },
     {
-        "merged": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_tou.png.flat",
-        "source": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\src\\main\\res\\drawable-xhdpi\\tou.png"
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menu_item_bottom.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\drawable\\menu_item_bottom.xml"
     },
     {
-        "merged": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_findpassword.xml.flat",
-        "source": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\src\\main\\res\\layout\\activity_findpassword.xml"
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btnbg.png.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\drawable\\btnbg.png"
     },
     {
-        "merged": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-login\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
-        "source": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_back.9.png.flat",
-        "source": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\src\\main\\res\\drawable-xhdpi\\back.9.png"
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_findpassword.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-login\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_findpassword.xml"
     },
     {
-        "merged": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
-        "source": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_qq.png.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\app\\src\\main\\res\\drawable-xhdpi\\user_qq.png"
     },
     {
-        "merged": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_changepassword.xml.flat",
-        "source": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\src\\main\\res\\layout\\activity_changepassword.xml"
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
-        "source": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\src\\main\\res\\layout\\activity_register.xml"
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_tou.png.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\app\\src\\main\\res\\drawable-xhdpi\\tou.png"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menu_item_single.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\drawable\\menu_item_single.xml"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tou.png.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\drawable\\tou.png"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\anim-v11_translate_down.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\library\\build\\intermediates\\bundles\\debug\\res\\anim-v11\\translate_down.xml"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_btnbg.png.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\app\\src\\main\\res\\drawable-xhdpi\\btnbg.png"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user_qq.png.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\drawable\\user_qq.png"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\anim_translate_down.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\anim\\translate_down.xml"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menu_item_top.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\drawable\\menu_item_top.xml"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back.9.png.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\drawable\\back.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_menu_item.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\layout\\menu_item.xml"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menu_item_middle.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\drawable\\menu_item_middle.xml"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\anim-v11_translate_up.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\library\\build\\intermediates\\bundles\\debug\\res\\anim-v11\\translate_up.xml"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_goto.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\app\\src\\main\\res\\layout\\activity_goto.xml"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_lock.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_lock.xml"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_changepassword.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-login\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_changepassword.xml"
     }
 ]

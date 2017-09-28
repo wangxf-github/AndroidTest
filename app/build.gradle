@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 21
+    compileSdkVersion 23
     buildToolsVersion "26.0.1"
 
     defaultConfig {
         applicationId "com.fingersoft.feature.login"
-        minSdkVersion 9
-        targetSdkVersion 21
+        minSdkVersion 21
+        targetSdkVersion 23
     }
 
     buildTypes {
@@ -21,8 +21,9 @@ android {
 
 dependencies {
     compile 'com.lzy.net:okgo:2.1.4'
-    compile 'com.android.support:support-v4:21.0.0'
+    compile 'com.android.support:support-v4:23.4.0'
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    compile project(path: ':feature-lock')
 }
 repositories {
     mavenCentral()

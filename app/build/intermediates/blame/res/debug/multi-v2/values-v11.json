@@ -1,17 +1,14 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "D:\\workspace\\feige\\quanshi\\samples\\andorid\\AndroidTest\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "source": "D:\\workspace\\feige\\AndroidTest\\feature-login\\build\\intermediates\\bundles\\debug\\res\\values-v11\\values-v11.xml",
                     "from": {
-                        "startLines": "6",
-                        "startColumns": "4",
-                        "startOffsets": "182",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "316"
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
                     },
                     "to": {
                         "startLines": "2",
@@ -19,7 +16,7 @@
                         "startOffsets": "55",
                         "endLines": "4",
                         "endColumns": "12",
-                        "endOffsets": "187"
+                        "endOffsets": "138"
                     }
                 }
             ]
