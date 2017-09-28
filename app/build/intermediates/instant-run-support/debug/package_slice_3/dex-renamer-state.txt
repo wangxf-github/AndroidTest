@@ -1,4 +1,4 @@
-#Thu Sep 28 18:49:15 CST 2017
+#Thu Sep 28 18:54:00 CST 2017
 base.0=D\:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
 renamed.0=classes.dex
 file.0=D\:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3\\classes.dex

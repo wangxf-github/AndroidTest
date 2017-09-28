@@ -28,16 +28,8 @@
         "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\drawable\\btnbg.png"
     },
     {
-        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
-        "source": "D:\\workspace\\feige\\AndroidTest\\feature-login\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_register.xml"
-    },
-    {
         "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
         "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_findpassword.xml.flat",
-        "source": "D:\\workspace\\feige\\AndroidTest\\feature-login\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_findpassword.xml"
     },
     {
         "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_user_qq.png.flat",
@@ -64,20 +56,16 @@
         "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\drawable\\menu_item_single.xml"
     },
     {
-        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "D:\\workspace\\feige\\AndroidTest\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
         "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tou.png.flat",
         "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\drawable\\tou.png"
     },
     {
-        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
-        "source": "D:\\workspace\\feige\\AndroidTest\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\anim-v11_translate_down.xml.flat",
-        "source": "D:\\workspace\\feige\\AndroidTest\\library\\build\\intermediates\\bundles\\debug\\res\\anim-v11\\translate_down.xml"
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
         "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_btnbg.png.flat",
@@ -112,19 +100,11 @@
         "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\drawable\\menu_item_middle.xml"
     },
     {
-        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\anim-v11_translate_up.xml.flat",
-        "source": "D:\\workspace\\feige\\AndroidTest\\library\\build\\intermediates\\bundles\\debug\\res\\anim-v11\\translate_up.xml"
-    },
-    {
         "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_goto.xml.flat",
         "source": "D:\\workspace\\feige\\AndroidTest\\app\\src\\main\\res\\layout\\activity_goto.xml"
     },
     {
         "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_lock.xml.flat",
         "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_lock.xml"
-    },
-    {
-        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_changepassword.xml.flat",
-        "source": "D:\\workspace\\feige\\AndroidTest\\feature-login\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_changepassword.xml"
     }
 ]

@@ -59,27 +59,6 @@
             ]
         },
         {
-            "outputFile": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
-            "map": [
-                {
-                    "source": "D:\\workspace\\feige\\AndroidTest\\feature-login\\build\\intermediates\\bundles\\debug\\res\\values-v11\\values-v11.xml",
-                    "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "138"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
             "map": [
                 {
@@ -97,27 +76,6 @@
                         "startOffsets": "55",
                         "endColumns": "58",
                         "endOffsets": "109"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
-            "map": [
-                {
-                    "source": "D:\\workspace\\feige\\AndroidTest\\feature-login\\build\\intermediates\\bundles\\debug\\res\\values-v14\\values-v14.xml",
-                    "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "152"
                     }
                 }
             ]

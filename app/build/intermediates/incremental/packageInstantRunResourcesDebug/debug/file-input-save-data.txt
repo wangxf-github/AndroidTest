@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Sep 28 18:50:59 CST 2017
+#Thu Sep 28 18:53:55 CST 2017
 25.file=D\:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\layout\\activity_login.xml
 25.base=D\:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 22.set=ANDROID_RESOURCE
