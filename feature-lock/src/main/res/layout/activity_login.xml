@@ -18,15 +18,6 @@
             android:orientation="vertical">
 
 
-            <ImageView
-                android:id="@+id/loginUserAvatar"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="20dp"
-                android:contentDescription="@string/login"
-                android:src="@drawable/user_qq" />
-
             <TextView
                 android:id="@+id/loginTitle"
                 style="@style/title_text"
