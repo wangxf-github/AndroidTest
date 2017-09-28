@@ -63,9 +63,72 @@ public final class R {
      */
     public static final int count=0x7f020007;
     /**
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     */
+    public static final int layout_heightPercent=0x7f020008;
+    /**
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     */
+    public static final int layout_marginBottomPercent=0x7f020009;
+    /**
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     */
+    public static final int layout_marginEndPercent=0x7f02000a;
+    /**
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     */
+    public static final int layout_marginLeftPercent=0x7f02000b;
+    /**
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     */
+    public static final int layout_marginPercent=0x7f02000c;
+    /**
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     */
+    public static final int layout_marginRightPercent=0x7f02000d;
+    /**
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     */
+    public static final int layout_marginStartPercent=0x7f02000e;
+    /**
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     */
+    public static final int layout_marginTopPercent=0x7f02000f;
+    /**
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     */
+    public static final int layout_widthPercent=0x7f020010;
+    /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int preference_id=0x7f020008;
+    public static final int preference_id=0x7f020011;
   }
   public static final class color {
     public static final int menu_item_normal=0x7f030000;
@@ -103,13 +166,12 @@ public final class R {
     public static final int lock_header=0x7f06000a;
     public static final int loginBtn=0x7f06000b;
     public static final int loginPassword=0x7f06000c;
-    public static final int loginTitle=0x7f06000d;
-    public static final int loginTop=0x7f06000e;
-    public static final int loginUserAvatar=0x7f06000f;
-    public static final int loginli=0x7f060010;
-    public static final int menu_cancel=0x7f060011;
-    public static final int menu_items=0x7f060012;
-    public static final int tv_state=0x7f060013;
+    public static final int loginTop=0x7f06000d;
+    public static final int loginUserAvatar=0x7f06000e;
+    public static final int loginli=0x7f06000f;
+    public static final int menu_cancel=0x7f060010;
+    public static final int menu_items=0x7f060011;
+    public static final int tv_state=0x7f060012;
   }
   public static final class layout {
     public static final int activity_gesturelock=0x7f070000;
@@ -184,7 +246,7 @@ public final class R {
      */
     public static final int[] GestureLockViewGroup={
         0x7f020003, 0x7f020004, 0x7f020005, 0x7f020006, 
-        0x7f020007, 0x7f020008
+        0x7f020007, 0x7f020011
       };
     /**
      * <p>This symbol is the offset where the {@link com.fingersoft.feature.login.R.attr#color_finger_on}
@@ -248,5 +310,145 @@ public final class R {
      * @attr name com.fingersoft.feature.login:preference_id
      */
     public static final int GestureLockViewGroup_preference_id=5;
+    /**
+     * Attributes that can be used with a PercentLayout_Layout.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #PercentLayout_Layout_layout_heightPercent com.fingersoft.feature.login:layout_heightPercent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PercentLayout_Layout_layout_marginBottomPercent com.fingersoft.feature.login:layout_marginBottomPercent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PercentLayout_Layout_layout_marginEndPercent com.fingersoft.feature.login:layout_marginEndPercent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PercentLayout_Layout_layout_marginLeftPercent com.fingersoft.feature.login:layout_marginLeftPercent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PercentLayout_Layout_layout_marginPercent com.fingersoft.feature.login:layout_marginPercent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PercentLayout_Layout_layout_marginRightPercent com.fingersoft.feature.login:layout_marginRightPercent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PercentLayout_Layout_layout_marginStartPercent com.fingersoft.feature.login:layout_marginStartPercent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PercentLayout_Layout_layout_marginTopPercent com.fingersoft.feature.login:layout_marginTopPercent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PercentLayout_Layout_layout_widthPercent com.fingersoft.feature.login:layout_widthPercent}</code></td><td></td></tr>
+     * </table>
+     * @see #PercentLayout_Layout_layout_heightPercent
+     * @see #PercentLayout_Layout_layout_marginBottomPercent
+     * @see #PercentLayout_Layout_layout_marginEndPercent
+     * @see #PercentLayout_Layout_layout_marginLeftPercent
+     * @see #PercentLayout_Layout_layout_marginPercent
+     * @see #PercentLayout_Layout_layout_marginRightPercent
+     * @see #PercentLayout_Layout_layout_marginStartPercent
+     * @see #PercentLayout_Layout_layout_marginTopPercent
+     * @see #PercentLayout_Layout_layout_widthPercent
+     */
+    public static final int[] PercentLayout_Layout={
+        0x7f020008, 0x7f020009, 0x7f02000a, 0x7f02000b, 
+        0x7f02000c, 0x7f02000d, 0x7f02000e, 0x7f02000f, 
+        0x7f020010
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.fingersoft.feature.login.R.attr#layout_heightPercent}
+     * attribute's value can be found in the {@link #PercentLayout_Layout} array.
+     *
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.fingersoft.feature.login:layout_heightPercent
+     */
+    public static final int PercentLayout_Layout_layout_heightPercent=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.fingersoft.feature.login.R.attr#layout_marginBottomPercent}
+     * attribute's value can be found in the {@link #PercentLayout_Layout} array.
+     *
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.fingersoft.feature.login:layout_marginBottomPercent
+     */
+    public static final int PercentLayout_Layout_layout_marginBottomPercent=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.fingersoft.feature.login.R.attr#layout_marginEndPercent}
+     * attribute's value can be found in the {@link #PercentLayout_Layout} array.
+     *
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.fingersoft.feature.login:layout_marginEndPercent
+     */
+    public static final int PercentLayout_Layout_layout_marginEndPercent=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.fingersoft.feature.login.R.attr#layout_marginLeftPercent}
+     * attribute's value can be found in the {@link #PercentLayout_Layout} array.
+     *
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.fingersoft.feature.login:layout_marginLeftPercent
+     */
+    public static final int PercentLayout_Layout_layout_marginLeftPercent=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.fingersoft.feature.login.R.attr#layout_marginPercent}
+     * attribute's value can be found in the {@link #PercentLayout_Layout} array.
+     *
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.fingersoft.feature.login:layout_marginPercent
+     */
+    public static final int PercentLayout_Layout_layout_marginPercent=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.fingersoft.feature.login.R.attr#layout_marginRightPercent}
+     * attribute's value can be found in the {@link #PercentLayout_Layout} array.
+     *
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.fingersoft.feature.login:layout_marginRightPercent
+     */
+    public static final int PercentLayout_Layout_layout_marginRightPercent=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.fingersoft.feature.login.R.attr#layout_marginStartPercent}
+     * attribute's value can be found in the {@link #PercentLayout_Layout} array.
+     *
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.fingersoft.feature.login:layout_marginStartPercent
+     */
+    public static final int PercentLayout_Layout_layout_marginStartPercent=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.fingersoft.feature.login.R.attr#layout_marginTopPercent}
+     * attribute's value can be found in the {@link #PercentLayout_Layout} array.
+     *
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.fingersoft.feature.login:layout_marginTopPercent
+     */
+    public static final int PercentLayout_Layout_layout_marginTopPercent=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.fingersoft.feature.login.R.attr#layout_widthPercent}
+     * attribute's value can be found in the {@link #PercentLayout_Layout} array.
+     *
+     * <p>May be a fractional value, which is a floating point number appended with
+     * either % or %p, such as "<code>14.5%</code>".
+     * The % suffix always means a percentage of the base size;
+     * the optional %p suffix provides a size relative to some parent container.
+     *
+     * @attr name com.fingersoft.feature.login:layout_widthPercent
+     */
+    public static final int PercentLayout_Layout_layout_widthPercent=8;
   }
 }

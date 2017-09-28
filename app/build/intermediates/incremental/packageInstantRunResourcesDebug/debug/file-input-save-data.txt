@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Sep 27 10:52:40 CST 2017
+#Thu Sep 28 18:49:14 CST 2017
 25.file=D\:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\layout\\activity_login.xml
 25.base=D\:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 22.set=ANDROID_RESOURCE
@@ -15,7 +15,7 @@ count=26
 0.file=D\:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable\\selector_normal.xml
 0.base=D\:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 21.set=ANDROID_RESOURCE
-20.file=D\:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\user_qq.png
+20.file=D\:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_launcher.png
 7.set=ANDROID_RESOURCE
 20.base=D\:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 10.set=ANDROID_RESOURCE
@@ -27,7 +27,7 @@ count=26
 1.file=D\:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable\\menu_item_single.xml
 1.base=D\:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 1.set=ANDROID_RESOURCE
-21.file=D\:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_launcher.png
+21.file=D\:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\user_qq.png
 21.base=D\:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 20.set=ANDROID_RESOURCE
 16.file=D\:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\tou.png

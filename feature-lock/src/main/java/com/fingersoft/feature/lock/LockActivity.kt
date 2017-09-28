@@ -2,9 +2,12 @@ package com.fingersoft.feature.lock
 
 import android.app.Activity
 import android.app.Fragment
+import android.app.FragmentContainer
 import android.os.Bundle
 import android.view.Window
 import android.view.WindowManager
+import android.widget.FrameLayout
+import android.widget.RelativeLayout
 import android.widget.TextView
 import android.widget.Toast
 import com.fingersoft.feature.actionsheet.ActionSheetDialog
@@ -26,6 +29,10 @@ class LockActivity : Activity(), ActionSheetDialog.MenuListener {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_lock)
+        initView();
+    }
+
+    private fun initView() {
         btn_changeLoginType = findViewById(R.id.change_login_type) as TextView
         isReset = intent.getBooleanExtra("isReset", false)
         type = intent.getStringExtra("type")

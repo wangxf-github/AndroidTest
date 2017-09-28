@@ -9,7 +9,16 @@ int attr color_finger_up_correct 0x7f020004
 int attr color_finger_up_error 0x7f020005
 int attr color_no_finger 0x7f020006
 int attr count 0x7f020007
-int attr preference_id 0x7f020008
+int attr layout_heightPercent 0x7f020008
+int attr layout_marginBottomPercent 0x7f020009
+int attr layout_marginEndPercent 0x7f02000a
+int attr layout_marginLeftPercent 0x7f02000b
+int attr layout_marginPercent 0x7f02000c
+int attr layout_marginRightPercent 0x7f02000d
+int attr layout_marginStartPercent 0x7f02000e
+int attr layout_marginTopPercent 0x7f02000f
+int attr layout_widthPercent 0x7f020010
+int attr preference_id 0x7f020011
 int color menu_item_normal 0x7f030000
 int color menu_item_pressed 0x7f030001
 int color menu_text 0x7f030002
@@ -39,13 +48,12 @@ int id id_content 0x7f060009
 int id lock_header 0x7f06000a
 int id loginBtn 0x7f06000b
 int id loginPassword 0x7f06000c
-int id loginTitle 0x7f06000d
-int id loginTop 0x7f06000e
-int id loginUserAvatar 0x7f06000f
-int id loginli 0x7f060010
-int id menu_cancel 0x7f060011
-int id menu_items 0x7f060012
-int id tv_state 0x7f060013
+int id loginTop 0x7f06000d
+int id loginUserAvatar 0x7f06000e
+int id loginli 0x7f06000f
+int id menu_cancel 0x7f060010
+int id menu_items 0x7f060011
+int id tv_state 0x7f060012
 int layout activity_gesturelock 0x7f070000
 int layout activity_goto 0x7f070001
 int layout activity_lock 0x7f070002
@@ -87,10 +95,20 @@ int style back_btn 0x7f0a0006
 int style back_text 0x7f0a0007
 int style title_relayout 0x7f0a0008
 int style title_text 0x7f0a0009
-int[] styleable GestureLockViewGroup { 0x7f020003, 0x7f020004, 0x7f020005, 0x7f020006, 0x7f020007, 0x7f020008 }
+int[] styleable GestureLockViewGroup { 0x7f020003, 0x7f020004, 0x7f020005, 0x7f020006, 0x7f020007, 0x7f020011 }
 int styleable GestureLockViewGroup_color_finger_on 0
 int styleable GestureLockViewGroup_color_finger_up_correct 1
 int styleable GestureLockViewGroup_color_finger_up_error 2
 int styleable GestureLockViewGroup_color_no_finger 3
 int styleable GestureLockViewGroup_count 4
 int styleable GestureLockViewGroup_preference_id 5
+int[] styleable PercentLayout_Layout { 0x7f020008, 0x7f020009, 0x7f02000a, 0x7f02000b, 0x7f02000c, 0x7f02000d, 0x7f02000e, 0x7f02000f, 0x7f020010 }
+int styleable PercentLayout_Layout_layout_heightPercent 0
+int styleable PercentLayout_Layout_layout_marginBottomPercent 1
+int styleable PercentLayout_Layout_layout_marginEndPercent 2
+int styleable PercentLayout_Layout_layout_marginLeftPercent 3
+int styleable PercentLayout_Layout_layout_marginPercent 4
+int styleable PercentLayout_Layout_layout_marginRightPercent 5
+int styleable PercentLayout_Layout_layout_marginStartPercent 6
+int styleable PercentLayout_Layout_layout_marginTopPercent 7
+int styleable PercentLayout_Layout_layout_widthPercent 8
