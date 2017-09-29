@@ -50,6 +50,12 @@ class FingerPrintFragment : Fragment(){
                 }
 
                 override fun onAuthenticateError(errMsgId: Int) {
+                    val animation = TranslateAnimation(10f, -10f, 0f, 0f)
+                    animation.interpolator = OvershootInterpolator()
+                    animation.duration = 50
+                    animation.repeatCount = 2
+                    animation.repeatMode = Animation.REVERSE
+                    v!!.startAnimation(animation)
                     lockListener?.onFingerPrintMatchError()
                 }
 

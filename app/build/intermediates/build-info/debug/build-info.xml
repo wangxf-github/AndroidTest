@@ -5,36 +5,27 @@
     build-mode="COLD"
     density="xxxhdpi"
     format="10"
-    ir-eligibility="IMPLEMENTED_INTERFACES_CHANGE"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.0-beta6"
-    timestamp="1506678589507"
+    timestamp="1506679027531"
     token="5843019864619653064"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="16" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="15" />
+        duration="12" />
     <task
         name="verifier"
-        duration="3" />
+        duration="1" />
 
     <artifact
         location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
     <artifact
         location="D:\workspace\feige\AndroidTest\app\build\outputs\apk\debug\app-debug.apk"
@@ -83,21 +74,9 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="FIELD_TYPE_CHANGE"
-        timestamp="1506677934503"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\outputs\apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
         ir-eligibility="IMPLEMENTED_INTERFACES_CHANGE"
         timestamp="1506678589507"
         verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
         <artifact
             location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
@@ -106,6 +85,18 @@
             type="SPLIT" />
         <artifact
             location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\workspace\feige\AndroidTest\app\build\outputs\apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1506679027531"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
             location="D:\workspace\feige\AndroidTest\app\build\outputs\apk\debug\app-debug.apk"
