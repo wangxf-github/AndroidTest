@@ -19,24 +19,36 @@ import com.fingersoft.feature.lock.view.listener.LockListener
 
 class FingerPrintFragment : Fragment(){
 
-    public var lockListener: LockListener? = null;
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+    private var fingerprintView: View? = null;
+    private var fingerprintImg: ImageView? = null;
+    private var lockListener: LockListener? = null;
+    var fingerprintCore :FingerprintUtils.FingerprintCore? = null;
+    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        fingerprintView = inflater?.inflate(R.layout.activity_fingerprint, container, false)
         initView()
+        initFingerprint()
+        return fingerprintView
     }
-
     // 控件的初始化
     private fun initView() {
         lockListener = LockManager.lockListener
+        fingerprintImg = fingerprintView?.findViewById(R.id.fingerprint_lock) as ImageView
+        fingerprintImg?.setOnClickListener {
+            fingerprintCore?.startAuthenticate()
+        }
+
+    }
+
+    private fun initFingerprint(){
         LockContext.init(activity.applicationContext)
         if(!FingerprintUtils.reject_if_need()){
             var dialog :Dialog = createLoadingDialog(activity);
-            var fingerprintCore :FingerprintUtils.FingerprintCore = FingerprintUtils.FingerprintCore(activity.applicationContext)
-            fingerprintCore.setFingerprintManager(object : FingerprintUtils.FingerprintCore.IFingerprintResultListener {
+            fingerprintCore = FingerprintUtils.FingerprintCore(activity.applicationContext)
+            fingerprintCore?.setFingerprintManager(object : FingerprintUtils.FingerprintCore.IFingerprintResultListener {
                 override fun onAuthenticateSuccess() {
                     lockListener?.onFingerPrintMatchSuccess()
                     dialog.dismiss()
-                    fingerprintCore.cancelAuthenticate()
+                    fingerprintImg?.setVisibility(View.VISIBLE);
                 }
 
                 override fun onAuthenticateFailed(helpId: Int) {
@@ -57,16 +69,19 @@ class FingerPrintFragment : Fragment(){
                     animation.repeatMode = Animation.REVERSE
                     v!!.startAnimation(animation)
                     lockListener?.onFingerPrintMatchError()
+                    fingerprintImg?.setVisibility(View.VISIBLE);
+                    dialog.dismiss()
                 }
 
                 override fun onStartAuthenticateResult(isSuccess: Boolean) {
                     if(!dialog.isShowing){
                         dialog.show()
+                        fingerprintImg?.setVisibility(View.INVISIBLE);
                     }
                 }
 
             })
-            fingerprintCore.startAuthenticate()
+            fingerprintCore?.startAuthenticate()
         }
     }
 
@@ -89,6 +104,10 @@ class FingerPrintFragment : Fragment(){
         val layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.FILL_PARENT, LinearLayout.LayoutParams.FILL_PARENT)
         fingerDialog.setContentView(layout, layoutParams)// 设置布局
         fingerDialog.setCanceledOnTouchOutside(false)
+        fingerDialog.setOnDismissListener {
+            fingerprintImg?.setVisibility(View.VISIBLE);
+            fingerprintCore?.cancelAuthenticate()
+        }
         return fingerDialog
     }
 

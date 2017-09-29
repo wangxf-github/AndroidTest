@@ -16,7 +16,6 @@ public class LockContext {
         fingerprintManager = FingerprintManagerCompat.from(application);
     }
 
-
     /**
      * 硬件是否支持
      * @return

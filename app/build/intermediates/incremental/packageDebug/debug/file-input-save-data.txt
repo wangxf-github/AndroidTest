@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Sep 29 16:59:44 CST 2017
+#Fri Sep 29 18:15:28 CST 2017
 25.file=D\:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\tou.png
 41.base=D\:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 25.base=D\:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_

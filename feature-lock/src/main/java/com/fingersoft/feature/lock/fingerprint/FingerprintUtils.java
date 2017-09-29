@@ -192,9 +192,7 @@ public class FingerprintUtils {
                             notifyAuthenticationError(errMsgId, errString);
                             return;
                         }
-                        if(errMsgId==5){
-                            notifyAuthenticationFailed(errMsgId , errString.toString());
-                        }
+                        onFailedRetry(0);
                     }
 
                     @Override
@@ -202,15 +200,15 @@ public class FingerprintUtils {
                         mState = NONE;
                         Log.e("finger",helpMsgId+":"+helpString.toString());
                         notifyAuthenticationFailed(helpMsgId , helpString.toString());
-//                        onFailedRetry(helpMsgId);
+                        onFailedRetry(helpMsgId);
                     }
 
                     @Override
                     public void onAuthenticationFailed() {
                         mState = NONE;
                         Log.e("finger","fail");
-//                        notifyAuthenticationFailed(0 , "");
-//                        onFailedRetry(0);
+                        notifyAuthenticationFailed(0 , "");
+                        onFailedRetry(0);
                     }
 
                     @Override

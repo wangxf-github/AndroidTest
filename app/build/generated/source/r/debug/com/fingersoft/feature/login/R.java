@@ -164,19 +164,20 @@ public final class R {
     public static final int container=0x7f060006;
     public static final int dialog_view=0x7f060007;
     public static final int fg_login=0x7f060008;
-    public static final int gesture_state=0x7f060009;
-    public static final int gesturelock=0x7f06000a;
-    public static final int id_content=0x7f06000b;
-    public static final int img=0x7f06000c;
-    public static final int lock_header=0x7f06000d;
-    public static final int loginBtn=0x7f06000e;
-    public static final int loginPassword=0x7f06000f;
-    public static final int loginTop=0x7f060010;
-    public static final int loginUserAvatar=0x7f060011;
-    public static final int loginli=0x7f060012;
-    public static final int menu_cancel=0x7f060013;
-    public static final int menu_items=0x7f060014;
-    public static final int tv_state=0x7f060015;
+    public static final int fingerprint_lock=0x7f060009;
+    public static final int gesture_state=0x7f06000a;
+    public static final int gesturelock=0x7f06000b;
+    public static final int id_content=0x7f06000c;
+    public static final int img=0x7f06000d;
+    public static final int lock_header=0x7f06000e;
+    public static final int loginBtn=0x7f06000f;
+    public static final int loginPassword=0x7f060010;
+    public static final int loginTop=0x7f060011;
+    public static final int loginUserAvatar=0x7f060012;
+    public static final int loginli=0x7f060013;
+    public static final int menu_cancel=0x7f060014;
+    public static final int menu_items=0x7f060015;
+    public static final int tv_state=0x7f060016;
   }
   public static final class layout {
     public static final int activity_fingerprint=0x7f070000;
