@@ -187,18 +187,17 @@ public class FingerprintUtils {
                         // 多次指纹密码验证错误后，进入此方法；并且，不能短时间内调用指纹验证,一般间隔从几秒到几十秒不等
                         // 这种情况不建议重试，建议提示用户用其他的方式解锁或者认证
                         mState = NONE;
-                        Log.e("finger",errMsgId+":"+errString.toString());
+                        Log.d("finger",errMsgId+":"+errString.toString());
                         if(errMsgId==7){
                             notifyAuthenticationError(errMsgId, errString);
                             return;
                         }
-                        onFailedRetry(0);
                     }
 
                     @Override
                     public void onAuthenticationHelp(int helpMsgId, CharSequence helpString) {
                         mState = NONE;
-                        Log.e("finger",helpMsgId+":"+helpString.toString());
+                        Log.d("finger",helpMsgId+":"+helpString.toString());
                         notifyAuthenticationFailed(helpMsgId , helpString.toString());
                         onFailedRetry(helpMsgId);
                     }
@@ -206,7 +205,7 @@ public class FingerprintUtils {
                     @Override
                     public void onAuthenticationFailed() {
                         mState = NONE;
-                        Log.e("finger","fail");
+                        Log.d("finger","fail");
                         notifyAuthenticationFailed(0 , "");
                         onFailedRetry(0);
                     }
@@ -215,7 +214,7 @@ public class FingerprintUtils {
                     public void onAuthenticationSucceeded(FingerprintManager.AuthenticationResult result) {
                         mState = NONE;
                         notifyAuthenticationSucceeded();
-                        Log.e("finger","success");
+                        Log.d("finger","success");
                     }
                 };
             }

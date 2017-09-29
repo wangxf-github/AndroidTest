@@ -30,7 +30,6 @@ class FingerPrintFragment : Fragment(){
     }
     // 控件的初始化
     private fun initView() {
-        lockListener = LockManager.lockListener
         fingerprintImg = fingerprintView?.findViewById(R.id.fingerprint_lock) as ImageView
         fingerprintImg?.setOnClickListener {
           initFingerprint()
@@ -39,6 +38,7 @@ class FingerPrintFragment : Fragment(){
     }
 
     private fun initFingerprint(){
+        lockListener = LockManager.lockListener
         LockContext.init(activity.applicationContext)
         if(!FingerprintUtils.reject_if_need()){
             var dialog :Dialog = createLoadingDialog(activity);
@@ -69,6 +69,7 @@ class FingerPrintFragment : Fragment(){
                     v!!.startAnimation(animation)
                     lockListener?.onFingerPrintMatchError()
                     fingerprintImg?.setVisibility(View.VISIBLE);
+                    fingerprintCore?.cancelAuthenticate()
                     dialog.dismiss()
                 }
 
@@ -105,9 +106,14 @@ class FingerPrintFragment : Fragment(){
         fingerDialog.setCanceledOnTouchOutside(false)
         fingerDialog.setOnDismissListener {
             fingerprintImg?.setVisibility(View.VISIBLE);
-            fingerprintCore?.cancelAuthenticate()
         }
         return fingerDialog
     }
 
+
+    override fun onDestroy() {
+        super.onDestroy()
+        fingerprintCore?.onDestroy()
+        Log.d("finger","destory")
+    }
 }
