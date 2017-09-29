@@ -1,119 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="23"
+    abi="x86"
+    api-level="24"
     build-mode="COLD"
-    density="xxxhdpi"
+    density="xhdpi"
     format="10"
-    ir-eligibility="METHOD_DELETED"
     plugin-version="3.0.0-beta6"
-    timestamp="1506681042641"
-    token="5843019864619653064"
-    verifier="COLD_SWAP_REQUESTED" >
+    timestamp="1506688608437"
+    token="-5121363446311874647"
+    verifier="METHOD_ADDED" >
 
     <task
         name="javac"
-        duration="11" />
+        duration="98" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="5" />
+        duration="30" />
     <task
         name="verifier"
-        duration="1" />
+        duration="6" />
 
     <artifact
-        location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        location="N:\work\feige\git\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
-    <artifact
-        location="D:\workspace\feige\AndroidTest\app\build\outputs\apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1506675624018"
+        timestamp="1506686355126"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="N:\work\feige\git\AndroidTest\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="N:\work\feige\git\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="N:\work\feige\git\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="N:\work\feige\git\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\outputs\apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="N:\work\feige\git\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="N:\work\feige\git\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="N:\work\feige\git\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="N:\work\feige\git\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="N:\work\feige\git\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="N:\work\feige\git\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="IMPLEMENTED_INTERFACES_CHANGE"
-        timestamp="1506678589507"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="N:\work\feige\git\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1506680126258"
-        verifier="CLASS_ADDED" >
-        <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1506680509821"
-        verifier="FIELD_ADDED" >
-        <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\outputs\apk\debug\app-debug.apk"
+            location="N:\work\feige\git\AndroidTest\app\build\outputs\apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="METHOD_DELETED"
-        timestamp="1506681042641"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1506688608437"
+        verifier="METHOD_ADDED" >
         <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="N:\work\feige\git\AndroidTest\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
-        <artifact
-            location="D:\workspace\feige\AndroidTest\app\build\outputs\apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

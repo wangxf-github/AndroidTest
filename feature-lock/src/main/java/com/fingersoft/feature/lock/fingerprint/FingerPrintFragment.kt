@@ -9,7 +9,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 import com.fingersoft.feature.lock.R
-import com.lzy.okgo.OkGo
 import android.view.animation.Animation
 import android.view.animation.OvershootInterpolator
 import android.view.animation.TranslateAnimation
@@ -34,7 +33,7 @@ class FingerPrintFragment : Fragment(){
         lockListener = LockManager.lockListener
         fingerprintImg = fingerprintView?.findViewById(R.id.fingerprint_lock) as ImageView
         fingerprintImg?.setOnClickListener {
-            fingerprintCore?.startAuthenticate()
+          initFingerprint()
         }
 
     }

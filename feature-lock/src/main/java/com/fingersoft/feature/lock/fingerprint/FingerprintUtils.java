@@ -30,10 +30,10 @@ public class FingerprintUtils {
             return true;
         }
 
-        if (!LockContext.isKeyguardSecure()) {
-            Log.d("Fingerprint","不处于锁屏");
-            return true;
-        }
+//        if (!LockContext.isKeyguardSecure()) {
+//            Log.d("Fingerprint","不处于锁屏");
+//            return true;
+//        }
         if (!LockContext.hasEnrolledFingerprints()) {
             Log.e("Fingerprint","没注册指纹");
             return true;
