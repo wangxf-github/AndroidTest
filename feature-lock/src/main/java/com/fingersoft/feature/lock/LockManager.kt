@@ -2,6 +2,7 @@ package com.fingersoft.feature.lock
 
 import android.content.Context
 import android.content.Intent
+import android.graphics.Bitmap
 import com.fingersoft.feature.lock.view.listener.LockListener
 import com.lzy.okgo.OkGo
 import com.lzy.okgo.cache.CacheMode
@@ -20,35 +21,46 @@ class LockManager {
     companion object {
         public var lockListener: LockListener? = null;
         val instance = LockManager();
+        var loginUserAvatar: Bitmap? = null;
     }
 
     private var userName: String? = null;
 
 
-    public fun doReLoginLock(context: Context, userName: String, listener: LockListener) {
+    public fun doReLoginLock(context: Context, userName: String, bitmap: Bitmap?, listener: LockListener) {
         lockListener = listener
+        loginUserAvatar = bitmap;
         this.userName = userName
         val intent = Intent(context, LockActivity::class.java)
         intent.putExtra("type", "relogin")
         context.startActivity(intent)
     }
 
-    public fun doGestureLock(context: Context, listener: LockListener) {
+    public fun doGestureLock(context: Context,bitmap:Bitmap?, listener: LockListener) {
         lockListener = listener
+        loginUserAvatar = bitmap;
         val intent = Intent(context, LockActivity::class.java)
         intent.putExtra("type", "gesture")
         context.startActivity(intent)
     }
 
 
-    public fun doResetGesturePassword(context: Context, listener: LockListener) {
+    public fun doResetGesturePassword(context: Context,bitmap:Bitmap?, listener: LockListener) {
         lockListener = listener
+        loginUserAvatar = bitmap;
         val intent = Intent(context, LockActivity::class.java)
         intent.putExtra("isReset", true)
         intent.putExtra("type", "gesture")
         context.startActivity(intent)
     }
 
+    public fun doFingerprintLock(context: Context,bitmap:Bitmap?, listener: LockListener) {
+        lockListener = listener
+        loginUserAvatar = bitmap;
+        val intent = Intent(context, LockActivity::class.java)
+        intent.putExtra("type", "fingerprint")
+        context.startActivity(intent)
+    }
 
     public fun login(userName: String?, password: String) {
         if (password != null && password != "") {

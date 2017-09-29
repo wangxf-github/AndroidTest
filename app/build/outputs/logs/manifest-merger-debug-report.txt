@@ -4,7 +4,7 @@ ADDED from D:\workspace\feige\AndroidTest\app\src\main\AndroidManifest.xml:2:1-2
 INJECTED from D:\workspace\feige\AndroidTest\app\src\main\AndroidManifest.xml:2:1-29:12
 INJECTED from D:\workspace\feige\AndroidTest\app\src\main\AndroidManifest.xml:2:1-29:12
 INJECTED from D:\workspace\feige\AndroidTest\app\src\main\AndroidManifest.xml:2:1-29:12
-MERGED from [:feature-lock] D:\workspace\feige\AndroidTest\feature-lock\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-19:12
+MERGED from [:feature-lock] D:\workspace\feige\AndroidTest\feature-lock\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-20:12
 MERGED from [com.lzy.net:okgo:2.1.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\okgo-2.1.4.aar\1e1ef1d836fbd3c9dc82dac838da94d9\AndroidManifest.xml:2:1-16:12
 MERGED from [com.android.support:percent:22.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\percent-22.2.0.aar\6f7fe38d5ef5900fde3e89a35c3c5b47\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\2bbc59eb32047eac269c9264aad516d4\AndroidManifest.xml:17:1-24:12
@@ -55,8 +55,8 @@ MERGED from [:feature-lock] D:\workspace\feige\AndroidTest\feature-lock\build\in
 		ADDED from D:\workspace\feige\AndroidTest\app\src\main\AndroidManifest.xml:11:22-64
 application
 ADDED from D:\workspace\feige\AndroidTest\app\src\main\AndroidManifest.xml:13:5-27:19
-MERGED from [:feature-lock] D:\workspace\feige\AndroidTest\feature-lock\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-17:19
-MERGED from [:feature-lock] D:\workspace\feige\AndroidTest\feature-lock\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-17:19
+MERGED from [:feature-lock] D:\workspace\feige\AndroidTest\feature-lock\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-18:19
+MERGED from [:feature-lock] D:\workspace\feige\AndroidTest\feature-lock\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-18:19
 MERGED from [com.android.support:percent:22.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\percent-22.2.0.aar\6f7fe38d5ef5900fde3e89a35c3c5b47\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:percent:22.2.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\percent-22.2.0.aar\6f7fe38d5ef5900fde3e89a35c3c5b47\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\2bbc59eb32047eac269c9264aad516d4\AndroidManifest.xml:22:5-20
@@ -85,10 +85,14 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\workspace\feige\AndroidTest\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
 		ADDED from D:\workspace\feige\AndroidTest\app\src\main\AndroidManifest.xml:24:27-74
-activity#com.fingersoft.feature.lock.LockActivity
-ADDED from [:feature-lock] D:\workspace\feige\AndroidTest\feature-lock\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:9-77
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [:feature-lock] D:\workspace\feige\AndroidTest\feature-lock\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-74
 	android:name
-		ADDED from [:feature-lock] D:\workspace\feige\AndroidTest\feature-lock\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:19-74
+		ADDED from [:feature-lock] D:\workspace\feige\AndroidTest\feature-lock\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:22-71
+activity#com.fingersoft.feature.lock.LockActivity
+ADDED from [:feature-lock] D:\workspace\feige\AndroidTest\feature-lock\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:9-77
+	android:name
+		ADDED from [:feature-lock] D:\workspace\feige\AndroidTest\feature-lock\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:19-74
 uses-permission#android.permission.INTERNET
 ADDED from [com.lzy.net:okgo:2.1.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\okgo-2.1.4.aar\1e1ef1d836fbd3c9dc82dac838da94d9\AndroidManifest.xml:11:5-67
 	android:name

@@ -19,7 +19,7 @@ import com.fingersoft.feature.lock.gesture.listener.GesturePasswordSettingListen
 class GestureLockFragment : Fragment(), GestureLockViewGroup.GestureLockViewLoad {
 
     lateinit var mGestureLockViewGroup: GestureLockViewGroup;
-//    lateinit var tv_state: TextView;
+    lateinit var gesture_state: TextView;
     private var isReset = false
     private var lockView: View? = null
     lateinit var lockListener: LockListener;
@@ -31,11 +31,12 @@ class GestureLockFragment : Fragment(), GestureLockViewGroup.GestureLockViewLoad
     }
 
     override fun loadSuccess() {
+        isReset = arguments.getBoolean("isReset");
         setGestureWhenNoSet()
     }
 
     private fun initGesture() {
-//        tv_state = lockView?.findViewById(R.id.tv_state) as TextView
+        gesture_state = lockView?.findViewById(R.id.gesture_state) as TextView
         mGestureLockViewGroup = lockView?.findViewById(R.id.gesturelock) as GestureLockViewGroup
         mGestureLockViewGroup.setGestureLoadListener(this)
         if (LockManager.lockListener != null) {
@@ -59,8 +60,8 @@ class GestureLockFragment : Fragment(), GestureLockViewGroup.GestureLockViewLoad
         mGestureLockViewGroup.setGestureEventListener { matched ->
             Log.d("onGestureEvent matched: ", matched.toString())
             if (!matched) {
-//                tv_state.setTextColor(Color.RED)
-//                tv_state.setText("手势密码错误")
+                gesture_state.setTextColor(Color.RED)
+                gesture_state.setText("手势密码错误")
                 lockListener.onGustureMatchError()
             } else {
                 if (isReset) {
@@ -68,8 +69,8 @@ class GestureLockFragment : Fragment(), GestureLockViewGroup.GestureLockViewLoad
                     resetGesturePattern()
                     lockListener.onGustureRemoveCallBack()
                 } else {
-//                    tv_state.setTextColor(Color.BLUE)
-//                    tv_state.setText("手势密码正确")
+                    gesture_state.setTextColor(Color.BLUE)
+                    gesture_state.setText("手势密码正确")
                     lockListener.onGustureMatchSuccess()
                 }
             }
@@ -80,36 +81,36 @@ class GestureLockFragment : Fragment(), GestureLockViewGroup.GestureLockViewLoad
         mGestureLockViewGroup.setGesturePasswordSettingListener(object : GesturePasswordSettingListener {
             override fun onFirstInputComplete(len: Int): Boolean {
                 Log.d("onFirstInputComplete", "onFirstInputComplete")
-                if (len > 3) {
-//                    tv_state.setTextColor(Color.BLUE)
-//                    tv_state.setText("再次绘制手势密码")
+                if (len > 2) {
+                    gesture_state.setTextColor(Color.BLUE)
+                    gesture_state.setText("再次绘制手势密码")
                     return true
                 } else {
-//                    tv_state.setTextColor(Color.RED)
-//                    tv_state.setText("最少连接4个点，请重新输入!")
+                    gesture_state.setTextColor(Color.RED)
+                    gesture_state.setText("最少连接3个点，请重新输入!")
                     return false
                 }
             }
 
             override fun onSuccess() {
                 Log.d("onSuccess", "onSuccess")
-//                tv_state.setTextColor(Color.BLUE)
-//                tv_state.setText("密码设置成功")
+                gesture_state.setTextColor(Color.BLUE)
+                gesture_state.setText("密码设置成功")
                 lockListener.onGustureSetSuccess()
             }
 
             override fun onFail() {
                 Log.d("onFail", "onFail")
-//                tv_state.setTextColor(Color.RED)
-//                tv_state.setText("与上一次绘制不一致，请重新绘制")
+                gesture_state.setTextColor(Color.RED)
+                gesture_state.setText("与上一次绘制不一致，请重新绘制")
             }
         })
     }
 
     private fun gestureRetryLimitListener() {
-        mGestureLockViewGroup.setGestureUnmatchedExceedListener(3) {
-//            tv_state.setTextColor(Color.RED)
-//            tv_state.setText("错误次数过多，请稍后再试")
+        mGestureLockViewGroup.setGestureUnmatchedExceedListener(5) {
+            gesture_state.setTextColor(Color.RED)
+            gesture_state.setText("错误次数过多，请稍后再试")
             mGestureLockViewGroup.resetView()
             lockListener.onGustureRetryLimitCallBack()
         }
@@ -118,20 +119,20 @@ class GestureLockFragment : Fragment(), GestureLockViewGroup.GestureLockViewLoad
     private fun setGestureWhenNoSet() {
         if (!isReset) {
             if (!mGestureLockViewGroup.isSetPassword) {
-//                tv_state.setTextColor(Color.BLUE)
-//                tv_state.setText("绘制手势密码")
+                gesture_state.setTextColor(Color.BLUE)
+                gesture_state.setText("绘制手势密码")
             } else {
-//                tv_state.setTextColor(Color.BLUE)
-//                tv_state.setText("请输入手势密码解锁")
+                gesture_state.setTextColor(Color.BLUE)
+                gesture_state.setText("请输入手势密码解锁")
             }
         } else {
             if (!mGestureLockViewGroup.isSetPassword) {
-//                tv_state.setTextColor(Color.BLUE)
-//                tv_state.setText("开始设置密码")
+                gesture_state.setTextColor(Color.BLUE)
+                gesture_state.setText("开始设置密码")
             } else {
                 isReset = true
-//                tv_state.setTextColor(Color.BLUE)
-//                tv_state.setText("请输入原手势密码")
+                gesture_state.setTextColor(Color.BLUE)
+                gesture_state.setText("请输入原手势密码")
                 mGestureLockViewGroup.resetView()
             }
         }

@@ -3,13 +3,13 @@ package com.fingersoft.feature.lock
 import android.app.Activity
 import android.app.Fragment
 import android.app.FragmentContainer
+import android.graphics.Color
 import android.os.Bundle
+import android.transition.Visibility
+import android.view.View
 import android.view.Window
 import android.view.WindowManager
-import android.widget.FrameLayout
-import android.widget.RelativeLayout
-import android.widget.TextView
-import android.widget.Toast
+import android.widget.*
 import com.fingersoft.feature.actionsheet.ActionSheetDialog
 
 
@@ -20,8 +20,10 @@ class LockActivity : Activity(), ActionSheetDialog.MenuListener {
 
 
     var btn_changeLoginType: TextView? = null
+    var loginUserAvatar: ImageView? = null
     var isReset: Boolean = false;
     var type: String? = null;
+    lateinit var tv_state:TextView;
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,14 +35,22 @@ class LockActivity : Activity(), ActionSheetDialog.MenuListener {
     }
 
     private fun initView() {
+        loginUserAvatar = findViewById(R.id.loginUserAvatar) as ImageView
         btn_changeLoginType = findViewById(R.id.change_login_type) as TextView
+        tv_state = findViewById(R.id.tv_state) as TextView
         isReset = intent.getBooleanExtra("isReset", false)
         type = intent.getStringExtra("type")
         setDefaultFragment()
         val menuView = ActionSheetDialog(this)
-        menuView.addMenuItem("密码登录").addMenuItem("手势解锁").addMenuItem("指纹解锁")
+        val list = listOf<String>("密码登录","手势解锁","指纹解锁")
+        for (title in list){
+            menuView.addMenuItem(title)
+        }
         menuView.setCancelText("取消")
         menuView.setMenuListener(this)
+        if(LockManager.loginUserAvatar!=null){
+            loginUserAvatar?.setImageBitmap(LockManager.loginUserAvatar)
+        }
         btn_changeLoginType?.setOnClickListener {
             menuView.show()
         }
@@ -52,14 +62,25 @@ class LockActivity : Activity(), ActionSheetDialog.MenuListener {
         var args = Bundle();
         when (type) {
             "relogin" -> {
-                fragment = com.fingersoft.feature.login.LoginFragment();
+                tv_state.setTextColor(Color.BLUE)
+                tv_state.setText("登陆")
+                btn_changeLoginType?.setVisibility(View.VISIBLE)
+                fragment = com.fingersoft.feature.lock.relogin.LoginFragment();
             }
             "gesture" -> {
+                tv_state.setTextColor(Color.BLUE)
+                tv_state.setText("手势密码")
+                if(isReset){
+                    btn_changeLoginType?.setVisibility(View.INVISIBLE)
+                }
                 fragment = com.fingersoft.feature.lock.gesture.GestureLockFragment();
                 args.putBoolean("isReset", isReset)
             }
             "fingerprint" -> {
-
+                tv_state.setTextColor(Color.BLUE)
+                tv_state.setText("指纹密码")
+                btn_changeLoginType?.setVisibility(View.VISIBLE)
+                fragment = com.fingersoft.feature.lock.fingerprint.FingerPrintFragment();
             }
         }
         setFragment(fragment, args)
@@ -78,14 +99,22 @@ class LockActivity : Activity(), ActionSheetDialog.MenuListener {
         val args = Bundle()
         when (item) {
             "密码登录" -> {
-                fragment = com.fingersoft.feature.login.LoginFragment();
+                tv_state.setTextColor(Color.BLUE)
+                tv_state.setText("登陆")
+                btn_changeLoginType?.setVisibility(View.VISIBLE)
+                fragment = com.fingersoft.feature.lock.relogin.LoginFragment();
             }
             "手势解锁" -> {
+                tv_state.setTextColor(Color.BLUE)
+                tv_state.setText("手势密码")
                 fragment = com.fingersoft.feature.lock.gesture.GestureLockFragment();
                 args.putBoolean("isReset", isReset)
             }
             "指纹解锁" -> {
-
+                tv_state.setTextColor(Color.BLUE)
+                tv_state.setText("指纹密码")
+                btn_changeLoginType?.setVisibility(View.VISIBLE)
+                fragment = com.fingersoft.feature.lock.fingerprint.FingerPrintFragment();
             }
         }
         setFragment(fragment, args)

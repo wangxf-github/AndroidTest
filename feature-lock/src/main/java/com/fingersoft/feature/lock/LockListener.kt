@@ -21,4 +21,13 @@ package com.fingersoft.feature.lock.view.listener
     fun onLoginSuccess(success: String);
     //登陆失败
     fun onLoginFail(fail: String);
+
+    //登陆失败
+    fun onFingerPrintMatchFail();
+
+    //登陆失败
+    fun onFingerPrintMatchSuccess();
+
+    //登陆失败
+    fun onFingerPrintMatchError();
 }

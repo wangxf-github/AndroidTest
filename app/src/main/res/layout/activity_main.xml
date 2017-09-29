@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:id="@+id/btn_lock"
-        android:text="LockFragment" />
+        android:id="@+id/btn_finger"
+        android:text="Fingerprint" />
 
 </LinearLayout>

@@ -64,6 +64,18 @@
         "source": "D:\\workspace\\feige\\AndroidTest\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_finger.png.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\drawable\\finger.png"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fingerprint.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_fingerprint.xml"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_default_login_avator.png.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\drawable\\default_login_avator.png"
+    },
+    {
         "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
         "source": "D:\\workspace\\feige\\AndroidTest\\app\\src\\main\\res\\menu\\main.xml"
     },
@@ -82,6 +94,10 @@
     {
         "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\anim_translate_down.xml.flat",
         "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\anim\\translate_down.xml"
+    },
+    {
+        "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\layout_finger_dialog.xml.flat",
+        "source": "D:\\workspace\\feige\\AndroidTest\\feature-lock\\build\\intermediates\\bundles\\debug\\res\\layout\\finger_dialog.xml"
     },
     {
         "merged": "D:\\workspace\\feige\\AndroidTest\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menu_item_top.xml.flat",

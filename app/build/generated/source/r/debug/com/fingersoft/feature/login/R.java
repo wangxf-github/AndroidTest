@@ -143,44 +143,51 @@ public final class R {
   public static final class drawable {
     public static final int back=0x7f050000;
     public static final int btnbg=0x7f050001;
-    public static final int ic_launcher=0x7f050002;
-    public static final int menu_item_bottom=0x7f050003;
-    public static final int menu_item_middle=0x7f050004;
-    public static final int menu_item_single=0x7f050005;
-    public static final int menu_item_top=0x7f050006;
-    public static final int selector_normal=0x7f050007;
-    public static final int tou=0x7f050008;
-    public static final int user_qq=0x7f050009;
+    public static final int default_login_avator=0x7f050002;
+    public static final int finger=0x7f050003;
+    public static final int ic_launcher=0x7f050004;
+    public static final int menu_item_bottom=0x7f050005;
+    public static final int menu_item_middle=0x7f050006;
+    public static final int menu_item_single=0x7f050007;
+    public static final int menu_item_top=0x7f050008;
+    public static final int selector_normal=0x7f050009;
+    public static final int tou=0x7f05000a;
+    public static final int user_qq=0x7f05000b;
   }
   public static final class id {
     public static final int action_settings=0x7f060000;
-    public static final int btn_gesturelock=0x7f060001;
-    public static final int btn_gesturereset=0x7f060002;
-    public static final int btn_lock=0x7f060003;
+    public static final int btn_finger=0x7f060001;
+    public static final int btn_gesturelock=0x7f060002;
+    public static final int btn_gesturereset=0x7f060003;
     public static final int btn_login=0x7f060004;
     public static final int change_login_type=0x7f060005;
     public static final int container=0x7f060006;
-    public static final int fg_login=0x7f060007;
-    public static final int gesturelock=0x7f060008;
-    public static final int id_content=0x7f060009;
-    public static final int lock_header=0x7f06000a;
-    public static final int loginBtn=0x7f06000b;
-    public static final int loginPassword=0x7f06000c;
-    public static final int loginTop=0x7f06000d;
-    public static final int loginUserAvatar=0x7f06000e;
-    public static final int loginli=0x7f06000f;
-    public static final int menu_cancel=0x7f060010;
-    public static final int menu_items=0x7f060011;
-    public static final int tv_state=0x7f060012;
+    public static final int dialog_view=0x7f060007;
+    public static final int fg_login=0x7f060008;
+    public static final int gesture_state=0x7f060009;
+    public static final int gesturelock=0x7f06000a;
+    public static final int id_content=0x7f06000b;
+    public static final int img=0x7f06000c;
+    public static final int lock_header=0x7f06000d;
+    public static final int loginBtn=0x7f06000e;
+    public static final int loginPassword=0x7f06000f;
+    public static final int loginTop=0x7f060010;
+    public static final int loginUserAvatar=0x7f060011;
+    public static final int loginli=0x7f060012;
+    public static final int menu_cancel=0x7f060013;
+    public static final int menu_items=0x7f060014;
+    public static final int tv_state=0x7f060015;
   }
   public static final class layout {
-    public static final int activity_gesturelock=0x7f070000;
-    public static final int activity_goto=0x7f070001;
-    public static final int activity_lock=0x7f070002;
-    public static final int activity_login=0x7f070003;
-    public static final int activity_main=0x7f070004;
-    public static final int dialog_action_sheet=0x7f070005;
-    public static final int menu_item=0x7f070006;
+    public static final int activity_fingerprint=0x7f070000;
+    public static final int activity_gesturelock=0x7f070001;
+    public static final int activity_goto=0x7f070002;
+    public static final int activity_lock=0x7f070003;
+    public static final int activity_login=0x7f070004;
+    public static final int activity_main=0x7f070005;
+    public static final int dialog_action_sheet=0x7f070006;
+    public static final int finger_dialog=0x7f070007;
+    public static final int menu_item=0x7f070008;
   }
   public static final class menu {
     public static final int main=0x7f080000;
@@ -219,8 +226,9 @@ public final class R {
     public static final int Theme_MenuTheme=0x7f0a0005;
     public static final int back_btn=0x7f0a0006;
     public static final int back_text=0x7f0a0007;
-    public static final int title_relayout=0x7f0a0008;
-    public static final int title_text=0x7f0a0009;
+    public static final int finger_dialog=0x7f0a0008;
+    public static final int title_relayout=0x7f0a0009;
+    public static final int title_text=0x7f0a000a;
   }
   public static final class styleable {
     /**

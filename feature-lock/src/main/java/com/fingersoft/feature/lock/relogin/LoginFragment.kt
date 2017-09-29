@@ -1,4 +1,4 @@
-package com.fingersoft.feature.login
+package com.fingersoft.feature.lock.relogin
 
 import android.app.Fragment
 import android.graphics.Color
